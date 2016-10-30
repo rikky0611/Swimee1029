@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0841592FD61BF562DF30907E /* Pods_Swimee1030.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365E5F6096DDAC52BC8EFF37 /* Pods_Swimee1030.framework */; };
+		9A23184E1DC440A2007C4ABF /* APIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23184D1DC440A2007C4ABF /* APIViewController.swift */; };
+		9A3248231DC4186700BF6485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3248221DC4186700BF6485 /* AppDelegate.swift */; };
+		9A3248251DC4186700BF6485 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3248241DC4186700BF6485 /* AsyncViewController.swift */; };
+		9A3248281DC4186700BF6485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3248261DC4186700BF6485 /* Main.storyboard */; };
+		9A32482A1DC4186700BF6485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3248291DC4186700BF6485 /* Assets.xcassets */; };
+		9A32482D1DC4186700BF6485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A32482B1DC4186700BF6485 /* LaunchScreen.storyboard */; };
+		9A3248381DC4186700BF6485 /* Swimee1030Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3248371DC4186700BF6485 /* Swimee1030Tests.swift */; };
+		9A3248431DC4186700BF6485 /* Swimee1030UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3248421DC4186700BF6485 /* Swimee1030UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A3248341DC4186700BF6485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3248171DC4186600BF6485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A32481E1DC4186700BF6485;
+			remoteInfo = Swimee1030;
+		};
+		9A32483F1DC4186700BF6485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3248171DC4186600BF6485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A32481E1DC4186700BF6485;
+			remoteInfo = Swimee1030;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F585604BD2ABB0C990FF1A5 /* Pods-Swimee1030.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee1030.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee1030/Pods-Swimee1030.release.xcconfig"; sourceTree = "<group>"; };
+		365E5F6096DDAC52BC8EFF37 /* Pods_Swimee1030.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swimee1030.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F7F6C250B4CAB85959FE5D /* Pods-Swimee1030.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee1030.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee1030/Pods-Swimee1030.debug.xcconfig"; sourceTree = "<group>"; };
+		9A23184D1DC440A2007C4ABF /* APIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIViewController.swift; sourceTree = "<group>"; };
+		9A32481F1DC4186700BF6485 /* Swimee1030.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swimee1030.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3248221DC4186700BF6485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A3248241DC4186700BF6485 /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
+		9A3248271DC4186700BF6485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3248291DC4186700BF6485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A32482C1DC4186700BF6485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A32482E1DC4186700BF6485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3248331DC4186700BF6485 /* Swimee1030Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swimee1030Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3248371DC4186700BF6485 /* Swimee1030Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swimee1030Tests.swift; sourceTree = "<group>"; };
+		9A3248391DC4186700BF6485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A32483E1DC4186700BF6485 /* Swimee1030UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swimee1030UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3248421DC4186700BF6485 /* Swimee1030UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swimee1030UITests.swift; sourceTree = "<group>"; };
+		9A3248441DC4186700BF6485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A32481C1DC4186700BF6485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0841592FD61BF562DF30907E /* Pods_Swimee1030.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3248301DC4186700BF6485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A32483B1DC4186700BF6485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92AC4382B86E74D2D4027A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62F7F6C250B4CAB85959FE5D /* Pods-Swimee1030.debug.xcconfig */,
+				0F585604BD2ABB0C990FF1A5 /* Pods-Swimee1030.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A3248161DC4186600BF6485 = {
+			isa = PBXGroup;
+			children = (
+				9A3248211DC4186700BF6485 /* Swimee1030 */,
+				9A3248361DC4186700BF6485 /* Swimee1030Tests */,
+				9A3248411DC4186700BF6485 /* Swimee1030UITests */,
+				9A3248201DC4186700BF6485 /* Products */,
+				92AC4382B86E74D2D4027A5F /* Pods */,
+				DE83EB918F6E26BD64219A5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3248201DC4186700BF6485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A32481F1DC4186700BF6485 /* Swimee1030.app */,
+				9A3248331DC4186700BF6485 /* Swimee1030Tests.xctest */,
+				9A32483E1DC4186700BF6485 /* Swimee1030UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3248211DC4186700BF6485 /* Swimee1030 */ = {
+			isa = PBXGroup;
+			children = (
+				9A3248221DC4186700BF6485 /* AppDelegate.swift */,
+				9A3248241DC4186700BF6485 /* AsyncViewController.swift */,
+				9A23184D1DC440A2007C4ABF /* APIViewController.swift */,
+				9A3248261DC4186700BF6485 /* Main.storyboard */,
+				9A3248291DC4186700BF6485 /* Assets.xcassets */,
+				9A32482B1DC4186700BF6485 /* LaunchScreen.storyboard */,
+				9A32482E1DC4186700BF6485 /* Info.plist */,
+			);
+			path = Swimee1030;
+			sourceTree = "<group>";
+		};
+		9A3248361DC4186700BF6485 /* Swimee1030Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9A3248371DC4186700BF6485 /* Swimee1030Tests.swift */,
+				9A3248391DC4186700BF6485 /* Info.plist */,
+			);
+			path = Swimee1030Tests;
+			sourceTree = "<group>";
+		};
+		9A3248411DC4186700BF6485 /* Swimee1030UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A3248421DC4186700BF6485 /* Swimee1030UITests.swift */,
+				9A3248441DC4186700BF6485 /* Info.plist */,
+			);
+			path = Swimee1030UITests;
+			sourceTree = "<group>";
+		};
+		DE83EB918F6E26BD64219A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				365E5F6096DDAC52BC8EFF37 /* Pods_Swimee1030.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A32481E1DC4186700BF6485 /* Swimee1030 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3248471DC4186700BF6485 /* Build configuration list for PBXNativeTarget "Swimee1030" */;
+			buildPhases = (
+				12FB05D3A10FBA2F9A081A09 /* Check Pods Manifest.lock */,
+				9A32481B1DC4186700BF6485 /* Sources */,
+				9A32481C1DC4186700BF6485 /* Frameworks */,
+				9A32481D1DC4186700BF6485 /* Resources */,
+				26DAF7786300D353E881DC10 /* Embed Pods Frameworks */,
+				F6707393E2D16C19563313A2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swimee1030;
+			productName = Swimee1030;
+			productReference = 9A32481F1DC4186700BF6485 /* Swimee1030.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A3248321DC4186700BF6485 /* Swimee1030Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A32484A1DC4186700BF6485 /* Build configuration list for PBXNativeTarget "Swimee1030Tests" */;
+			buildPhases = (
+				9A32482F1DC4186700BF6485 /* Sources */,
+				9A3248301DC4186700BF6485 /* Frameworks */,
+				9A3248311DC4186700BF6485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3248351DC4186700BF6485 /* PBXTargetDependency */,
+			);
+			name = Swimee1030Tests;
+			productName = Swimee1030Tests;
+			productReference = 9A3248331DC4186700BF6485 /* Swimee1030Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A32483D1DC4186700BF6485 /* Swimee1030UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A32484D1DC4186700BF6485 /* Build configuration list for PBXNativeTarget "Swimee1030UITests" */;
+			buildPhases = (
+				9A32483A1DC4186700BF6485 /* Sources */,
+				9A32483B1DC4186700BF6485 /* Frameworks */,
+				9A32483C1DC4186700BF6485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3248401DC4186700BF6485 /* PBXTargetDependency */,
+			);
+			name = Swimee1030UITests;
+			productName = Swimee1030UITests;
+			productReference = 9A32483E1DC4186700BF6485 /* Swimee1030UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3248171DC4186600BF6485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Riku Arakawa";
+				TargetAttributes = {
+					9A32481E1DC4186700BF6485 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					9A3248321DC4186700BF6485 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A32481E1DC4186700BF6485;
+					};
+					9A32483D1DC4186700BF6485 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A32481E1DC4186700BF6485;
+					};
+				};
+			};
+			buildConfigurationList = 9A32481A1DC4186600BF6485 /* Build configuration list for PBXProject "Swimee1030" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3248161DC4186600BF6485;
+			productRefGroup = 9A3248201DC4186700BF6485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A32481E1DC4186700BF6485 /* Swimee1030 */,
+				9A3248321DC4186700BF6485 /* Swimee1030Tests */,
+				9A32483D1DC4186700BF6485 /* Swimee1030UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A32481D1DC4186700BF6485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A32482D1DC4186700BF6485 /* LaunchScreen.storyboard in Resources */,
+				9A32482A1DC4186700BF6485 /* Assets.xcassets in Resources */,
+				9A3248281DC4186700BF6485 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3248311DC4186700BF6485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A32483C1DC4186700BF6485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12FB05D3A10FBA2F9A081A09 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26DAF7786300D353E881DC10 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swimee1030/Pods-Swimee1030-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6707393E2D16C19563313A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swimee1030/Pods-Swimee1030-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A32481B1DC4186700BF6485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3248251DC4186700BF6485 /* AsyncViewController.swift in Sources */,
+				9A3248231DC4186700BF6485 /* AppDelegate.swift in Sources */,
+				9A23184E1DC440A2007C4ABF /* APIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A32482F1DC4186700BF6485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3248381DC4186700BF6485 /* Swimee1030Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A32483A1DC4186700BF6485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3248431DC4186700BF6485 /* Swimee1030UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A3248351DC4186700BF6485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A32481E1DC4186700BF6485 /* Swimee1030 */;
+			targetProxy = 9A3248341DC4186700BF6485 /* PBXContainerItemProxy */;
+		};
+		9A3248401DC4186700BF6485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A32481E1DC4186700BF6485 /* Swimee1030 */;
+			targetProxy = 9A32483F1DC4186700BF6485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A3248261DC4186700BF6485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3248271DC4186700BF6485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A32482B1DC4186700BF6485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A32482C1DC4186700BF6485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3248451DC4186700BF6485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A3248461DC4186700BF6485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A3248481DC4186700BF6485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F7F6C250B4CAB85959FE5D /* Pods-Swimee1030.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swimee1030/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.Swimee1030;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A3248491DC4186700BF6485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F585604BD2ABB0C990FF1A5 /* Pods-Swimee1030.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swimee1030/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.Swimee1030;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A32484B1DC4186700BF6485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Swimee1030Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.Swimee1030Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swimee1030.app/Swimee1030";
+			};
+			name = Debug;
+		};
+		9A32484C1DC4186700BF6485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Swimee1030Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.Swimee1030Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swimee1030.app/Swimee1030";
+			};
+			name = Release;
+		};
+		9A32484E1DC4186700BF6485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Swimee1030UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.Swimee1030UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swimee1030;
+			};
+			name = Debug;
+		};
+		9A32484F1DC4186700BF6485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Swimee1030UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.Swimee1030UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swimee1030;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A32481A1DC4186600BF6485 /* Build configuration list for PBXProject "Swimee1030" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3248451DC4186700BF6485 /* Debug */,
+				9A3248461DC4186700BF6485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3248471DC4186700BF6485 /* Build configuration list for PBXNativeTarget "Swimee1030" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3248481DC4186700BF6485 /* Debug */,
+				9A3248491DC4186700BF6485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A32484A1DC4186700BF6485 /* Build configuration list for PBXNativeTarget "Swimee1030Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A32484B1DC4186700BF6485 /* Debug */,
+				9A32484C1DC4186700BF6485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A32484D1DC4186700BF6485 /* Build configuration list for PBXNativeTarget "Swimee1030UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A32484E1DC4186700BF6485 /* Debug */,
+				9A32484F1DC4186700BF6485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3248171DC4186600BF6485 /* Project object */;
+}
